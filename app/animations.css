@@ -1,0 +1,58 @@
+/* Mobile menu animations */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  }
+  
+  .mobile-menu-item {
+    animation: fadeIn 0.3s ease forwards;
+  }
+  
+  .mobile-menu-item:nth-child(1) {
+    animation-delay: 0.05s;
+  }
+  .mobile-menu-item:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  .mobile-menu-item:nth-child(3) {
+    animation-delay: 0.15s;
+  }
+  .mobile-menu-item:nth-child(4) {
+    animation-delay: 0.2s;
+  }
+  
+  /* Scroll to top button pulse animation */
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.7);
+    }
+    70% {
+      box-shadow: 0 0 0 10px rgba(22, 163, 74, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(22, 163, 74, 0);
+    }
+  }
+  
+  .scroll-top-button {
+    animation: pulse 2s infinite;
+  }
+  
+  
