@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { useParams, useRouter } from "next/navigation"
+import { useParams } from "next/navigation"
 import {
   CalendarDays,
   MapPin,
@@ -41,7 +41,6 @@ import PriceDisclaimer from "@/components/price-disclaimer"
 
 export default function TourDetailsPage() {
   const { slug } = useParams()
-  const router = useRouter()
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   const tour = tours.find((t) => t.slug === slug)
@@ -52,7 +51,7 @@ export default function TourDetailsPage() {
         <SiteHeader />
         <div className="container mx-auto px-4 py-12 text-center">
           <h2 className="text-2xl font-bold mb-4">Tour not found</h2>
-          <p className="mb-6">The tour you're looking for doesn't exist or has been removed.</p>
+          <p className="mb-6">The tour you&apos;re looking for doesn&apos;t exist or has been removed.</p>
           <Button asChild>
             <Link href="/tours">Browse All Tours</Link>
           </Button>
@@ -249,7 +248,7 @@ export default function TourDetailsPage() {
                       <DialogHeader>
                         <DialogTitle>Inquire About This Tour</DialogTitle>
                         <DialogDescription>
-                          Have questions about {tour.title}? Send us a message and we'll get back to you shortly.
+                          Have questions about {tour.title}? Send us a message and we&apos;ll get back to you shortly.
                         </DialogDescription>
                       </DialogHeader>
                       <div className="grid gap-4 py-4">
@@ -267,7 +266,7 @@ export default function TourDetailsPage() {
                           <Label htmlFor="inquiry-message">Your Message</Label>
                           <Textarea
                             id="inquiry-message"
-                            placeholder="I'm interested in this tour and would like to know more about..."
+                            placeholder="I&apos;m interested in this tour and would like to know more about..."
                             rows={5}
                           />
                         </div>
@@ -351,7 +350,7 @@ export default function TourDetailsPage() {
 
           <TabsContent value="inclusions" className="mt-6">
             <div className="bg-white p-6 rounded-lg">
-              <h2 className="text-2xl font-bold mb-6">What's Included & Excluded</h2>
+              <h2 className="text-2xl font-bold mb-6">What&apos;s Included & Excluded</h2>
 
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -428,7 +427,7 @@ export default function TourDetailsPage() {
                   />
                   <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform hover:shadow-lg hover:-translate-y-1">
                     <div className="relative h-48">
-                      <img
+                      <Image
                         src={relatedTour.image || "/placeholder.svg"}
                         alt={relatedTour.title}
                         className="h-full w-full object-cover"

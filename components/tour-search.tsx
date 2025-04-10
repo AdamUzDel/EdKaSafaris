@@ -131,7 +131,7 @@ export default function TourSearch({ destinations, className = "" }: TourSearchP
 
           <div className="space-y-2">
             <Label htmlFor="price" className="text-xs text-gray-500 ml-1">
-              What's your budget?
+              What&apos;s your budget?
             </Label>
             <div className="relative">
               <Select value={price} onValueChange={setPrice}>

@@ -157,7 +157,7 @@ export default function SiteHeader() {
                 <DialogHeader>
                   <DialogTitle>Inquire About Our Tours</DialogTitle>
                   <DialogDescription>
-                    Have questions about our safari tours? Send us a message and we'll get back to you shortly.
+                    Have questions about our safari tours? Send us a message and we&apos;ll get back to you shortly.
                   </DialogDescription>
                 </DialogHeader>
                 <div className="grid gap-4 py-4">
@@ -179,7 +179,7 @@ export default function SiteHeader() {
                     <Label htmlFor="inquiry-message">Your Message</Label>
                     <Textarea
                       id="inquiry-message"
-                      placeholder="I'm interested in your safari tours and would like to know more about..."
+                      placeholder="I&apos;m interested in your safari tours and would like to know more about..."
                       rows={5}
                     />
                   </div>
@@ -267,7 +267,7 @@ export default function SiteHeader() {
                 <DialogHeader>
                   <DialogTitle>Inquire About Our Tours</DialogTitle>
                   <DialogDescription>
-                    Have questions about our safari tours? Send us a message and we'll get back to you shortly.
+                    Have questions about our safari tours? Send us a message and we&apos;ll get back to you shortly.
                   </DialogDescription>
                 </DialogHeader>
                 <div className="grid gap-4 py-4">
@@ -289,7 +289,7 @@ export default function SiteHeader() {
                     <Label htmlFor="mobile-inquiry-message">Your Message</Label>
                     <Textarea
                       id="mobile-inquiry-message"
-                      placeholder="I'm interested in your safari tours and would like to know more about..."
+                      placeholder="I&apos;m interested in your safari tours and would like to know more about..."
                       rows={5}
                     />
                   </div>

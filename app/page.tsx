@@ -143,8 +143,8 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "Our gorilla trekking experience was absolutely incredible. The guides were knowledgeable and the
-                  entire trip was well organized. Will definitely book with Edka Safaris again!"
+                &quot;Our gorilla trekking experience was absolutely incredible. The guides were knowledgeable and the
+                  entire trip was well organized. Will definitely book with Edka Safaris again!&quot;
                 </p>
                 <div className="flex items-center">
                   <div className="h-10 w-10 rounded-full bg-gray-200 mr-3"></div>
@@ -172,8 +172,8 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "The 7-day safari through Queen Elizabeth National Park exceeded all our expectations. We saw so many
-                  animals and our guide was exceptional. Highly recommend!"
+                &quot;The 7-day safari through Queen Elizabeth National Park exceeded all our expectations. We saw so many
+                  animals and our guide was exceptional. Highly recommend!&quot;
                 </p>
                 <div className="flex items-center">
                   <div className="h-10 w-10 rounded-full bg-gray-200 mr-3"></div>
@@ -201,8 +201,8 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "From booking to the actual tour, everything was seamless. The accommodations were comfortable and the
-                  wildlife viewing opportunities were amazing. Thank you Edka Safaris!"
+                &quot;From booking to the actual tour, everything was seamless. The accommodations were comfortable and the
+                  wildlife viewing opportunities were amazing. Thank you Edka Safaris!&quot;
                 </p>
                 <div className="flex items-center">
                   <div className="h-10 w-10 rounded-full bg-gray-200 mr-3"></div>

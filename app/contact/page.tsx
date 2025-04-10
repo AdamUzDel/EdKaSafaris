@@ -39,7 +39,7 @@ export default function ContactPage() {
     // Show success message
     toast(
        "Message Sent!",
-      {description: "Thank you for contacting us. We'll get back to you shortly.",
+      {description: "Thank you for contacting us. We&apos;ll get back to you shortly.",
     })
 
     // Reset form
@@ -62,7 +62,7 @@ export default function ContactPage() {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-3">Contact Us</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Have questions about our safari tours or need help planning your trip? Get in touch with our team and we'll
+            Have questions about our safari tours or need help planning your trip? Get in touch with our team and we&apos;ll
             be happy to assist you.
           </p>
         </div>
@@ -228,13 +228,13 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-lg font-semibold mb-2">How do I book a safari?</h3>
                 <p className="text-gray-700">
-                  You can book a safari through our website by selecting your preferred tour and clicking the "Book Now"
+                  You can book a safari through our website by selecting your preferred tour and clicking the &quot;Book Now&quot;
                   button. Alternatively, you can contact us directly via phone or email to make a reservation.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold mb-2">What's the best time to visit Uganda for safaris?</h3>
+                <h3 className="text-lg font-semibold mb-2">What&apos;s the best time to visit Uganda for safaris?</h3>
                 <p className="text-gray-700">
                   Uganda can be visited year-round, but the dry seasons (December to February and June to August) are
                   generally considered the best times for wildlife viewing and gorilla trekking.
@@ -261,7 +261,7 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-lg font-semibold mb-2">Can I customize a tour package?</h3>
                 <p className="text-gray-700">
-                  We specialize in creating custom safari experiences. Contact us with your preferences, and we'll
+                  We specialize in creating custom safari experiences. Contact us with your preferences, and we&apos;ll
                   design a personalized itinerary for you.
                 </p>
               </div>
@@ -269,8 +269,8 @@ export default function ContactPage() {
               <div className="bg-green-50 p-6 rounded-lg mt-8">
                 <h3 className="text-lg font-semibold mb-2">Need More Information?</h3>
                 <p className="text-gray-700 mb-4">
-                  If you have any other questions or need further assistance, don't hesitate to reach out to our team.
-                  We're here to help make your Uganda safari adventure unforgettable.
+                  If you have any other questions or need further assistance, don&apos;t hesitate to reach out to our team.
+                  We&apos;re here to help make your Uganda safari adventure unforgettable.
                 </p>
                 <Button variant="outline" asChild>
                   <a href="tel:+256752195226">Call Us Now</a>
@@ -280,6 +280,8 @@ export default function ContactPage() {
           </div>
         </div>
       </div>
+
+      <Toaster />
 
       <SiteFooter />
     </div>

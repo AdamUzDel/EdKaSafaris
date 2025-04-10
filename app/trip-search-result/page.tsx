@@ -16,6 +16,7 @@ import { tourCategories } from "@/lib/data"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
 import PriceDisclaimer from "@/components/price-disclaimer"
+import Image from "next/image"
 
 export default function TripSearchResults() {
   const searchParams = useSearchParams()
@@ -24,7 +25,7 @@ export default function TripSearchResults() {
 
   const [selectedCategories, setSelectedCategories] = useState<string[]>([])
   const [selectedDurations, setSelectedDurations] = useState<string[]>([])
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, 5000])
+  const [priceRange] = useState<[number, number]>([0, 5000])
 
   useEffect(() => {
     const destination = searchParams.get("destination") || ""
@@ -272,7 +273,8 @@ export default function TripSearchResults() {
                     />
                     <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform hover:shadow-lg hover:-translate-y-1">
                       <div className="relative h-48">
-                        <img
+                        <Image
+                          fill
                           src={tour.image || "/placeholder.svg"}
                           alt={tour.title}
                           className="h-full w-full object-cover"

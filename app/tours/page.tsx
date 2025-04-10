@@ -7,6 +7,7 @@ import { MapPin, Calendar, Star } from "lucide-react"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
 import PriceDisclaimer from "@/components/price-disclaimer"
+import Image from "next/image"
 
 export default function ToursPage() {
   // Group tours by category
@@ -61,7 +62,8 @@ export default function ToursPage() {
                   />
                   <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform hover:shadow-lg hover:-translate-y-1">
                     <div className="relative h-48">
-                      <img
+                      <Image
+                        fill
                         src={tour.image || "/placeholder.svg"}
                         alt={tour.title}
                         className="h-full w-full object-cover"
@@ -118,9 +120,9 @@ export default function ToursPage() {
         <div className="bg-green-50 rounded-lg p-8 mt-12">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
-              <h2 className="text-2xl font-bold mb-4">Can't Find What You're Looking For?</h2>
+              <h2 className="text-2xl font-bold mb-4">Can&apos;t Find What You&apos;re Looking For?</h2>
               <p className="text-gray-700 mb-6">
-                We specialize in customized safari experiences. Let us know your preferences, and we'll create a
+                We specialize in customized safari experiences. Let us know your preferences, and we&apos;ll create a
                 personalized itinerary just for you.
               </p>
               <Button asChild>
@@ -128,7 +130,7 @@ export default function ToursPage() {
               </Button>
             </div>
             <div className="rounded-lg overflow-hidden h-64 relative">
-              <img
+              <Image
                 src="/jinja-city-1-1024x683.webp?height=300&width=500"
                 alt="Custom Safari"
                 className="w-full h-full object-cover"

@@ -32,18 +32,18 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-gray-700 mb-4">
                   Edka Safaris & Adventures was founded with a passion for showcasing the natural beauty and cultural
-                  richness of East Africa. What began as a small family operation has grown into one of Uganda's most
+                  richness of East Africa. What began as a small family operation has grown into one of Uganda&apos;s most
                   respected safari companies.
                 </p>
                 <p className="text-gray-700 mb-4">
-                  Our journey started when our founder, after years of guiding tourists through Uganda's national parks,
+                  Our journey started when our founder, after years of guiding tourists through Uganda&apos;s national parks,
                   decided to create a company that would provide authentic, sustainable, and unforgettable safari
                   experiences.
                 </p>
                 <p className="text-gray-700 mb-6">
                   Today, we pride ourselves on our deep knowledge of East African wildlife, landscapes, and cultures.
                   Our team of experienced guides and travel experts work tirelessly to create custom safari experiences
-                  that exceed our clients' expectations.
+                  that exceed our clients&apos; expectations.
                 </p>
                 <div className="flex items-center space-x-2 text-green-600 font-medium">
                   <span>Learn more about our journey</span>
@@ -91,7 +91,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3">Sustainability</h3>
                 <p className="text-gray-700">
-                  We are committed to environmentally responsible tourism that preserves East Africa's natural beauty
+                  We are committed to environmentally responsible tourism that preserves East Africa&apos;s natural beauty
                   for future generations. We support local conservation efforts and minimize our ecological footprint.
                 </p>
               </div>
@@ -152,7 +152,7 @@ export default function AboutPage() {
                 <div>
                   <h3 className="text-xl font-bold mb-2">Customized Experiences</h3>
                   <p className="text-gray-700">
-                    We tailor each safari to our clients' interests, preferences, and budget. Whether you're interested
+                    We tailor each safari to our clients&apos; interests, preferences, and budget. Whether you&apos;re interested
                     in wildlife photography, bird watching, or cultural experiences, we create an itinerary just for
                     you.
                   </p>
@@ -214,7 +214,7 @@ export default function AboutPage() {
                     <h3 className="font-bold text-lg">John Doe</h3>
                     <p className="text-gray-600 text-sm">Safari Guide</p>
                     <p className="text-gray-700 mt-2 text-sm">
-                      With over 10 years of experience guiding tours through Uganda's national parks.
+                      With over 10 years of experience guiding tours through Uganda&apos;s national parks.
                     </p>
                   </div>
                 </div>
@@ -229,7 +229,7 @@ export default function AboutPage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">What Our Clients Say</h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Don't just take our word for it. Here's what our clients have to say about their experiences with Edka
+                Don&apos;t just take our word for it. Here&apos;s what our clients have to say about their experiences with Edka
                 Safaris.
               </p>
             </div>
