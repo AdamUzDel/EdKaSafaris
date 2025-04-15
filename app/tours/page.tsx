@@ -133,6 +133,7 @@ export default function ToursPage() {
               <Image
                 src="/jinja-city-1-1024x683.webp?height=300&width=500"
                 alt="Custom Safari"
+                height="300" width="500"
                 className="w-full h-full object-cover"
               />
             </div>
