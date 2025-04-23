@@ -124,6 +124,7 @@ export const tours = [
       "Airfare",
       "All services of a personal nature",
       "Activities not mentioned in the itinerary",
+      "Health insurance is not included",
     ],
   },
   {
@@ -187,6 +188,7 @@ export const tours = [
       "Airfare",
       "All services of a personal nature",
       "Activities not mentioned in the itinerary",
+      "Health insurance is not included",
     ],
   },
   {
@@ -251,6 +253,7 @@ export const tours = [
       "Airfare",
       "All services of a personal nature",
       "Activities not mentioned in the itinerary",
+      "Health insurance is not included",
     ],
   },
   {
@@ -303,6 +306,7 @@ export const tours = [
       "Airfare",
       "All services of a personal nature",
       "Activities not mentioned in the itinerary",
+      "Health insurance is not included",
     ],
   },
   {
@@ -366,6 +370,7 @@ export const tours = [
       "Airfare",
       "All services of a personal nature",
       "Activities not mentioned in the itinerary",
+      "Health insurance is not included",
     ],
   },
   {
@@ -428,7 +433,8 @@ export const tours = [
       "Alcoholic drinks",
       "Airfare",
       "All services of a personal nature",
-      "Activities not mentioned in the itinerary",
+      "Activities not mentioned in the itinerary",,
+      "Health insurance is not included"
     ],
   },
   {
@@ -483,8 +489,126 @@ export const tours = [
       "Alcoholic drinks",
       "Airfare",
       "All services of a personal nature",
-      "Activities not mentioned in the itinerary",
+      "Activities not mentioned in the itinerary",,
+      "Health insurance is not included"
     ],
   },
+  {
+    id: "kenya-study-tour-10-days",
+    title: "10 Day Kenya Study Tour",
+    slug: "kenya-study-tour-10-days",
+    description:
+      "This 10 days Kenya study tour is a regional tour that takes you for an Educational tour to Kenya – one of the east African countries using either Malaba or Busia border. Students spend tour Nairobi and Mombasa, Kenya two biggest cities",
+    location: "Kenya",
+    category: "Educational Tours",
+    duration: "10 Days / 9 Nights",
+    image: "/dh38zklg9pf1sg4exstl.webp?height=600&width=800",
+    gallery: [
+      "/dh38zklg9pf1sg4exstl.webp?height=400&width=600",
+      "/Wilson_Airport.jpg?height=400&width=600",
+      "/187600885_1906235779557630_8512490382348779404_n.jpg?height=400&width=600",
+      "/80.jpg?height=400&width=600"
+    ],
+    price: 2800,
+    currency: "USD",
+    priceInfo: "Per person. Includes accommodation, meals, park entry, and activities.",
+    depositRequired: "30% deposit required for confirmation",
+    rating: 4.7,
+    reviews: 31,
+    highlights: [
+      "Kenya, Nairobi – Mombasa study tour for group of pupils /students",
+      "Your study tour will begin and end at a designated point in Kampala.",
+      "Study tour to cover 10 days and 9 nights",
+      "Accommodation is hotel and hostel category based on room sharing. However there are separate facilities for girls/boys.",
+      "This study tour is suitable for pupils from P5 to P7 classes",
+      "This study tour is suitable for all students both secondary and post-secondary",
+      "This study tour can be customized to suit your needs",
+      "This study tour is available all year round but most preferably in December/Early January",
+      "Use of the Madaraka Express passenger train from Nairobi to Mombasa and return by road",
+      "Ground transportation is by Buses and Coasters",
+    ],
+    itinerary: [
+      {
+        day: "Day 1",
+        title: "Travel from Kampala to Nairobi",
+        description:
+          "The learners will be picked by a team of our professional tour guides at a designated point in Kampala, preferably at the former Shoprite at Lugogo.After a meet and greet session, the journey to Nairobi through Busia border will start. We hope to set off by 5.00 am to avoid traffic jam and to ensure that we are the Busia border by 8.00 am. They will go through the immigration process where learners and accompanying staff will be expected to present their passports and yellow fever vaccination certificates. Those without passports will apply for temporary travel document at a fee. Depending on the time taken on immigration clearances, they will continue their  journey to Nairobi with a stopover for lunch either in Kisumu or Kericho. They will drive through Kericho tea estate as learners are given key educative lectures about this mighty tea estate by our onboard guides. They will arrive in Nairobi by 7PM and will be checked into their accommodation facility for supper and overnight. There will be a strict demarcation for boys and girls when it comes to accommodation facilities. Meal Plan: Breakfast, Lunch and Dinner."
+      },
+      {
+        day: "Day 2",
+        title: "Visit Kenyatta International Convention Centre, Parliament and Nairobi National Museum.",
+        description:
+          "Kenyatta International Convention Centre: \n After breakfast, the Nairobi tour will start in high gear with a visit to Kenyatta International Convention Centre (KICC). KICC is a tall beautiful building of 28-storeys, built in 1974 and is considered a symbol of Nairobi serving as an international venue for major conferences, seminars, exhibitions, meetings as well as special events including international summits.Kenyan Parliament: From KICC, they will walk across the road to the Kenyan Parliament which is just a stone throw away. The Kenyan parliament is divided into 2 houses namely – National Assembly and Senate. The learners will take a tour of the building that houses the Parliament and learn about its history. Nairobi National Museum. After lunch, they will head to Nairobi National Museum which is the flagship brand of the National Museums of Kenya located on Museum Hill. It is a 10 minute drive from Nairobi city central business district. The museum tells the story of Kenya’s rich Heritage with four distinctive themes representing Kenya’s Culture, Nature, History and Contemporary Art hence it offers a one stop Center for visitors to sample the country’s rich heritage both for education and leisure. In addition to the museum, visitors are treated to a variety of shopping and eating facilities, as well as botanical gardens that offer a serene environment. After, they will be taken to Uhuru Park in the middle of the city to relax and have lunch. Later in the day, the learners will retire back to ther accommodation facility for supper and overnight. Meal Plan: Breakfast, lunch and Dinner"
+      },
+      {
+        day: "Day 3",
+        title: "Visit Wilson Airport, Nairobi Giraffe Centre and Bomas of Kenya",
+        description:
+          "Wilson Airport: On day three after breakfast, the learners will visit Wilson airport which lies about 4km by road south of Nairobi central business district. The airport was established as Nairobi West Aerodrome in 1927 by a wealthy widow called Florence Kerr Wilson. The airport’s average traffic is around 120,000 landings and take-offs annually. Air Kenya and other small airlines use Wilson Airport for scheduled domestic passenger services instead of JKIA. Nairobi Giraffe Centre: After visit Wilson Airport, the leaners will tour Nairobi Giraffe Centre located about 20km from Nairobi city center. It was established in 1979 under the African Fund for Endangered Wildlife (AFEW) which plays a pivotal role in conserving the critically endangered Rothschild giraffe. The main attraction for both school children and visitors is the hand feeding of giraffes from a raised wooden structure (giraffe height). They can also watch Warthogs snuffling at their hooves, scavenging on the fallen pellets. Bomas of Kenya. After lunch they will visit Bomas of Kenya which is a tourist village in Langata – Nairobi on Forest edge road about 10km from Nairobi City Centre. It was established by the Government of Kenya in 1971 with the overall mandate to preserve, maintain and promote the rich and diverse cultural values of various ethnic groups of Kenya and to act as a tourist attraction. There are currently different “Bomas” representing each of Kenya’s major ethnic communities with numerous huts displaying traditional villages belonging to the several Kenyan tribes. They will watch the traditional dances representing the various ethnic communities of Kenya before having a tour of the different “Bomas”. Later in the evening the learners will retreat back to their accommodation facility for supper and overnight. Meal plan: Breakfast, Lunch and Dinner"
+      },
+      {
+        day: "Day 4",
+        title: "Game Drive in Nairobi National park and visit to the Resurrection Gardens",
+        description:
+          "Nairobi National park: Day four starts with a visit to Nairobi National Park. After breakfast,the learners will head to the park for an early morning game drive believed to be more rewarding than any other time of the day. Known as “The world’s only Wildlife Capital”, Nairobi National park is Kenya’s first game reserve, established in 1946. It is a short drive out of Nairobi central business district located about 8km south of Nairobi on Lang’ata edge road. It is home to over 100 mammals with four of the big five present. Resurrection Garden: After lunch, they  will visit the Resurrection Garden which is a place of prayer located south west of Nairobi about 1km off Dagoretti road. The resurrection garden was established purposely to help Christians rediscover the roots of their faith in order to draw new inspiration and courage in serving God. The garden is painted with beautiful pictures in different stations showing the history of salvation – the birth of Jesus, his ministry and one that ends up with the way of the cross. Meal plan: Breakfast, Lunch and Dinner"
+      },
+      {
+        day: "Day 5",
+        title: "Travel to Mombasa by Standard Gauge Railway (SGR).",
+        description:
+          "After an early morning breakfast, the learners will be dropped off at Syokimau Nairobi terminus on time for the 8:00 am train schedule and have a transfer to Mombasa by the Madaraka Express passenger train arriving the Mombasa terminus at 2:00 pm. They will have lunch before being transferred to Pirates Beach for their first introduction to coastal life. Pirates beach also known as Kenyatta public beach is found in Bamburi along Mombasa – Malindi highway about 8 kilometers from Mombasa central business district. Over looked by several beautiful beach resorts, lots of activities await you at pirates beach including sun bathing, boat rides, photography, Camel rides and swimming among others. Later they will retire to their booked accommodation facility for supper and overnight. Meal plan: Breakfast, Lunch and Dinner"
+      },
+      {
+        day: "Day 6",
+        title: "Visit Rabai Mpya in the morning and Haller Park in the afternoon.",
+        description:
+          "Rabai: After breakfast your first experience of coast life begins with a visit to Rabai also called Rabai Mpya. It is a historic location situated about 25km north-west of Mombasa, off the Mombasa – Nairobi highway along the Mazeras – Kaloleni road in Kilifi County. The Rabia museum also referred to as Krapf memorial museum was officially opened on June 1998 in memory of Krapt and to honor his work in the area. It was also founded so as to give formal and a perpetual reminder to monumental events during the advent of early missionaries. Today this place represents the mixture of the history of Christianity, Slavery and the Mijikenda culture whose evidence is still in the place. The Rabai festival is an annual event held in November to celebrate the history, life and culture of the Rabai and their small town. Haller Park: After lunch you will head to Haller Park situated in the North Coast of Mombasa south of the Bamburi Cement factory along Mombasa – Malindi highway. This is an ecological park that is as a result of transformation of a quarry wasteland into a park full of diverse varieties of plants and animals. What was once a limestone quarry is now a thriving ecosystem of forest, grassland and ponds with walking trails for you to view the fenced wildlife such as hippo, giraffe, antelope, buffalo, humongous tortoises and smaller mammals. The park also has a number of bird species like the eagle, sandpiper, weaver, kingfisher, ibis, owl, heron, egret and much more. The sections of the park include the game sanctuary, reptile park, fish farm, crocodile pens, giraffe viewing point and palm gardens. Enjoy the twisting and winding nature trails and have the opportunity to feed the hippos and giraffes. Later retire to your booked accommodation facility for supper and overnight"
+      },
+      {
+        day: "Day 7",
+        title: "Visit to Fort Jesus, Likoni Ferry and  Mamba Village",
+        description:
+          "Fort Jesus: After breakfast students will start the day with a morning visit to Fort Jesus. Fort Jesus was built by Portuguese towards the end of the 16th century between 1593 to 1596 on the coastline near Old Mombasa town. After the Portuguese inhabited it, the fort became the subject of battle between 1631 and 1895, it was captured and recaptured, changing hands nine times with the Oman Arabs winning control over it in 1698. In 1895 the British transformed it into a prison in which they held slaves in the torture rooms and cells in the inner part of the fort. In 2011 it was declared a World Heritage Site by UNESCO and highlighted as one of the most outstanding and well-preserved examples of 16th century Portuguese military fortifications. Likoni Ferry: After about an hour, the learners will depart Fort Jesus and connect to have an experience of the Likoni Ferry which serves the Mombasa island side and the mainland suburb of Likoni. Two-Four double-ended ferries alternate across the harbor, carrying both road and foot traffic. They will have the experience of being on the ferry with breathtaking views of Mombasa Port seen from a close range. Mamba village: After lunch, they will head to Mamba Village located about 12 kilometers north of Kenyan coastal town of Mombasa, in the Nyali area. Mamba village is the largest crocodile farm in Africa and is home to over 10,000 crocodiles. It is also home to BIG DADDY which is known as the oldest crocodile. The tour of the farm will begin with a video presentation as an introduction to many reptile species, life cycle and behavior of crocodiles. This will be followed by a comprehensive tour of the rest of the farm as they learn more about the crocodile life cycle and behavior while viewing lives of crocodile of every size, starting from hatchlings to fully grown adults."
+      },
+      {
+        day: "Day 8",
+        title: "Visit Wild Waters for a half day full-packed activities",
+        description:
+          "Wild Waters: After breakfast, the learners will head to wild waters situated in Nyali, Mombasa on links road for half day fun full packed activities and experience the beautiful coastal sunshine at wild waters. Wild waters is a family entertainment park that boasts a range of fun with its exhilarating slides, games, rides and pool for all ages. Wild Waters blends the thrill of an amusement park with the refreshing cool of a water park. In this place, there is something for everyone. Shopping: After lunch, they will spend the rest of the afternoon at leisure with shopping options in one of the supermarkets as well as at Marikiti market for those with interested in purchasing some souvenirs like crafts, shirts, bangles etc. Later they will retire back to their accommodation for supper and to sleep as they prepare for the journey back to Nairobi."
+      },
+      {
+        day: "Day 9",
+        title: "Drive from Mombasa to Nairobi",
+        description:
+          "On the ninth day the learners will have a relaxed breakfast before being transferred to Nairobi by road. They will go through Tsavo east and Tsavo west national parks as they catch a glimpse of Zebras that commonly graze by the road side enroute to Nairobi. Lunch break will be at Tsavo before continuing the journey and arriving Nairobi in the evening.  Supper and overnight at the respective booked accommodation facility. "
+      },
+      {
+        day: "Day 10",
+        title: "Back to Uganda",
+        description:
+          "The learners will wake up at sunrise and set off for Kampala. Breakfast will be served enroute in Nakuru. Arrive at Busia border by 1:30pm, clear with immigration to confirm exit from Kenya. Have lunch at Busia border before continuing your journey to Kampala. Arrive in Kampala at the designated pick up point (Shoprite Lugogo) at 6.00 PM. Meal Plan: Breakfast and Lunch. This marks the end of 10 Days and 9 nights of the Kenyan Study Tour"
+      }
+    ],
+    inclusions: [
+      "Airport transfers",
+      "Accommodation (twin sharing basis)",
+      "All meals as per itinerary",
+      "Entrance fees to parks and reserves",
+      "Professional English-speaking guide",
+      "Cultural engagement activities",
+      "Ground transportation in a safari vehicle",
+      "Bottled water during travel"
+    ],
+    exclusions: [
+      "International airfare",
+      "Personal expenses",
+      "Visa fees",
+      "Tips and gratuities",
+      "Travel and medical insurance",
+      "Activities not mentioned in itinerary",
+      "Vaccinations and COVID-19 testing (if required)",
+      "Health insurance is not included"
+    ]
+  },  
 ]
 

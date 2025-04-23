@@ -34,9 +34,9 @@ export default function Home() {
           <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
             <p className="text-xl md:text-2xl font-light mb-2">Find Your Dream Tour</p>
             <h2 className="text-4xl md:text-6xl font-bold mb-8">
-              Where Would You Like <br />
+              Crafting Unforgettable <br />
               <span className="inline-block">
-                To <span className="text-yellow-400">Go?</span>
+                Journeys in <span className="text-yellow-400">Uganda</span>
               </span>
             </h2>
 
@@ -48,26 +48,26 @@ export default function Home() {
         <section className="py-16 px-4">
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
             <FeatureCard
-              title="Special Offers"
-              description="Find Your Perfect Holiday deals. Get the best prices on amazing gorilla, city and park safari tours."
-              icon="tag"
+              title="Wildlife Experiences"
+              description="Encounter Uganda's iconic wildlife up close with our gorilla trekking and game drive experiences."
+              icon="compass"
               bgColor="bg-gradient-to-br from-green-50 to-green-100"
               accentColor="text-green-600"
-              badge="HOLIDAY SALE"
+              badge="POPULAR"
             />
 
             <FeatureCard
-              title="Newsletters"
-              description="Join for free and get our tailored newsletters full of hot travel deals."
-              icon="mail"
+              title="Adventure Activities"
+              description="Enjoy whitewater rafting on the Nile River, hiking in the Rwenzori Mountains, and more."
+              icon="tag"
               bgColor="bg-gradient-to-br from-blue-50 to-blue-100"
               accentColor="text-blue-600"
             />
 
             <FeatureCard
-              title="Travel Tips"
-              description="Tips from our travel experts to make your next trip even better."
-              icon="compass"
+              title="Cultural Tours"
+              description="Experience authentic interactions with local communities and discover Uganda's rich heritage."
+              icon="mail"
               bgColor="bg-gradient-to-br from-yellow-50 to-yellow-100"
               accentColor="text-yellow-600"
             />
@@ -80,8 +80,8 @@ export default function Home() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Popular Safari Tours</h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Discover our most popular safari experiences across East Africa. From gorilla trekking to wildlife
-                safaris, we have the perfect adventure waiting for you.
+                Discover our most popular safari experiences across East Africa. From gorilla trekking in Bwindi to
+                wildlife safaris in Queen Elizabeth National Park, we have the perfect adventure waiting for you.
               </p>
             </div>
 
@@ -143,7 +143,7 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4">
-                &quot;Our gorilla trekking experience was absolutely incredible. The guides were knowledgeable and the
+                  &quot;Our gorilla trekking experience was absolutely incredible. The guides were knowledgeable and the
                   entire trip was well organized. Will definitely book with Edka Safaris again!&quot;
                 </p>
                 <div className="flex items-center">
@@ -172,7 +172,7 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4">
-                &quot;The 7-day safari through Queen Elizabeth National Park exceeded all our expectations. We saw so many
+                  &quot;The 7-day safari through Queen Elizabeth National Park exceeded all our expectations. We saw so many
                   animals and our guide was exceptional. Highly recommend!&quot;
                 </p>
                 <div className="flex items-center">
@@ -201,7 +201,7 @@ export default function Home() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4">
-                &quot;From booking to the actual tour, everything was seamless. The accommodations were comfortable and the
+                  &quot;From booking to the actual tour, everything was seamless. The accommodations were comfortable and the
                   wildlife viewing opportunities were amazing. Thank you Edka Safaris!&quot;
                 </p>
                 <div className="flex items-center">
@@ -233,4 +233,3 @@ export default function Home() {
     </div>
   )
 }
-

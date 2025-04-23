@@ -18,9 +18,7 @@ export default function AboutPage() {
           </div>
           <div className="container mx-auto px-4 relative z-10 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">About Edka Safaris & Adventures</h1>
-            <p className="text-xl max-w-3xl mx-auto">
-              Your trusted partner for unforgettable East African safari experiences since 2010.
-            </p>
+            <p className="text-xl max-w-3xl mx-auto">Crafting Unforgettable Journeys in Uganda and beyond</p>
           </div>
         </section>
 
@@ -31,19 +29,18 @@ export default function AboutPage() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-gray-700 mb-4">
-                  Edka Safaris & Adventures was founded with a passion for showcasing the natural beauty and cultural
-                  richness of East Africa. What began as a small family operation has grown into one of Uganda&apos;s most
-                  respected safari companies.
+                  Edka Safaris and Adventure is a premier tour and travel company based in Kampala, Uganda, renowned for
+                  delivering exceptional and immersive travel experiences across East Africa.
                 </p>
                 <p className="text-gray-700 mb-4">
-                  Our journey started when our founder, after years of guiding tourists through Uganda&apos;s national parks,
-                  decided to create a company that would provide authentic, sustainable, and unforgettable safari
-                  experiences.
+                  Founded by two brothers, Edris and Ismael, whose shared passion for adventure and deep love for
+                  Uganda&apos;s natural and cultural heritage inspired the company&apos;s inception, Edka Safaris has quickly
+                  established itself as a trusted name in the tourism industry.
                 </p>
                 <p className="text-gray-700 mb-6">
-                  Today, we pride ourselves on our deep knowledge of East African wildlife, landscapes, and cultures.
-                  Our team of experienced guides and travel experts work tirelessly to create custom safari experiences
-                  that exceed our clients&apos; expectations.
+                  With a commitment to creating unforgettable memories, we specialize in tailor-made safaris, cultural
+                  tours, and adventure activities that showcase the breathtaking beauty and biodiversity of Uganda,
+                  often referred to as the &quot;Pearl of Africa.&quot;
                 </p>
                 <div className="flex items-center space-x-2 text-green-600 font-medium">
                   <span>Learn more about our journey</span>
@@ -74,8 +71,41 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Our Values */}
+        {/* Vision and Mission */}
         <section className="py-16 px-4 bg-gray-50">
+          <div className="container mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4">Vision and Mission</h2>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Our vision and mission guide everything we do at Edka Safaris.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold mb-4 text-green-700">Our Vision</h3>
+                <p className="text-gray-700">
+                  Edka Safaris and Adventure was born from the brothers&apos; vision to share Uganda&apos;s unparalleled
+                  landscapes, wildlife, and vibrant cultures with the world. We strive to be the premier gateway for
+                  travelers seeking authentic and transformative experiences in East Africa.
+                </p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-md">
+                <h3 className="text-2xl font-bold mb-4 text-green-700">Our Mission</h3>
+                <p className="text-gray-700">
+                  Our mission is to provide personalized, high-quality travel experiences that not only captivate
+                  travelers but also promote sustainable tourism and support local communities. By combining our
+                  intimate knowledge of the region with a dedication to customer satisfaction, we transform travel
+                  dreams into reality, one journey at a time.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Our Values */}
+        <section className="py-16 px-4">
           <div className="container mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">Our Values</h2>
@@ -91,8 +121,9 @@ export default function AboutPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3">Sustainability</h3>
                 <p className="text-gray-700">
-                  We are committed to environmentally responsible tourism that preserves East Africa&apos;s natural beauty
-                  for future generations. We support local conservation efforts and minimize our ecological footprint.
+                  We are deeply committed to sustainable tourism practices that preserve Uganda&apos;s natural wonders and
+                  uplift local communities. We partner with eco-friendly lodges, support conservation initiatives, and
+                  engage local artisans and guides to ensure economic benefits reach grassroots levels.
                 </p>
               </div>
 
@@ -103,7 +134,8 @@ export default function AboutPage() {
                 <h3 className="text-xl font-bold mb-3">Community</h3>
                 <p className="text-gray-700">
                   We believe in giving back to the communities we visit. We employ local guides, support community-based
-                  tourism initiatives, and contribute to local development projects.
+                  tourism initiatives, and contribute to local development projects. By promoting responsible travel, we
+                  ensure that future generations can experience Uganda&apos;s pristine wilderness.
                 </p>
               </div>
 
@@ -114,9 +146,93 @@ export default function AboutPage() {
                 <h3 className="text-xl font-bold mb-3">Excellence</h3>
                 <p className="text-gray-700">
                   We strive for excellence in every aspect of our service. From the moment you contact us to the end of
-                  your safari, we are dedicated to providing an exceptional experience.
+                  your safari, we are dedicated to providing an exceptional experience with our team of certified guides
+                  and passionate staff who bring expertise and enthusiasm to every journey.
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Travel Offerings */}
+        <section className="py-16 px-4 bg-gray-50">
+          <div className="container mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4">Our Travel Offerings</h2>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Edka Safaris offers a diverse portfolio of travel packages designed to cater to a wide range of
+                interests and budgets.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-lg overflow-hidden shadow-md">
+                <div className="h-48 relative">
+                  <Image
+                    src="/placeholder.svg?height=200&width=300"
+                    alt="Gorilla Trekking"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3">Wildlife Experiences</h3>
+                  <p className="text-gray-700 mb-4">
+                    From gorilla and chimpanzee trekking in Bwindi Impenetrable and Kibale Forests to thrilling game
+                    drives in Queen Elizabeth and Murchison Falls National Parks, we ensure travelers encounter Uganda&apos;s
+                    iconic wildlife up close.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg overflow-hidden shadow-md">
+                <div className="h-48 relative">
+                  <Image
+                    src="/placeholder.svg?height=200&width=300"
+                    alt="Adventure Activities"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3">Adventure Activities</h3>
+                  <p className="text-gray-700 mb-4">
+                    Adventure enthusiasts can enjoy whitewater rafting on the Nile River in Jinja, hiking in the
+                    Rwenzori Mountains, or birdwatching expeditions to spot rare species like the shoebill.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg overflow-hidden shadow-md">
+                <div className="h-48 relative">
+                  <Image
+                    src="/placeholder.svg?height=200&width=300"
+                    alt="Cultural Tours"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3">Cultural Tours</h3>
+                  <p className="text-gray-700 mb-4">
+                    Our cultural tours provide authentic interactions with local communities, such as the Batwa in
+                    Bwindi or the Karamojong in the northeast, offering insights into Uganda&apos;s rich heritage.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-10 text-center">
+              <p className="text-gray-700 mb-6 max-w-3xl mx-auto">
+                Each itinerary is meticulously crafted to reflect the unique preferences of clients, whether they seek
+                luxury lodges, mid-range accommodations, or budget-friendly options. We pride ourselves on flexibility,
+                ensuring every detail—from accommodation to activities—aligns with your vision. Our services also extend
+                to Rwanda, Kenya, and Tanzania, offering multi-destination safaris that highlight the best of East
+                Africa.
+              </p>
+              <Button asChild>
+                <Link href="/tours">Explore Our Tours</Link>
+              </Button>
             </div>
           </div>
         </section>
@@ -139,8 +255,9 @@ export default function AboutPage() {
                 <div>
                   <h3 className="text-xl font-bold mb-2">Local Expertise</h3>
                   <p className="text-gray-700">
-                    Our guides are local experts with intimate knowledge of the terrain, wildlife, and culture. They
-                    know the best spots for wildlife viewing and can provide rich cultural context.
+                    Our guides are certified by the Uganda Safari Guides Association (USAGA) and possess extensive
+                    knowledge of Uganda&apos;s flora, fauna, and cultural nuances. They know the best spots for wildlife
+                    viewing and can provide rich cultural context.
                   </p>
                 </div>
               </div>
@@ -188,43 +305,8 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Meet Our Team */}
-        <section className="py-16 px-4 bg-gray-50">
-          <div className="container mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Meet Our Team</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Our experienced team of guides, travel experts, and support staff are dedicated to making your safari
-                experience unforgettable.
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-4 gap-6">
-              {[1, 2, 3, 4].map((i) => (
-                <div key={i} className="bg-white rounded-lg overflow-hidden shadow-md">
-                  <div className="h-64 relative">
-                    <Image
-                      src={`/placeholder.svg?height=300&width=300&text=Team Member ${i}`}
-                      alt={`Team Member ${i}`}
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="p-4 text-center">
-                    <h3 className="font-bold text-lg">John Doe</h3>
-                    <p className="text-gray-600 text-sm">Safari Guide</p>
-                    <p className="text-gray-700 mt-2 text-sm">
-                      With over 10 years of experience guiding tours through Uganda&apos;s national parks.
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* Testimonials */}
-        <section className="py-16 px-4">
+        <section className="py-16 px-4 bg-gray-50">
           <div className="container mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-4">What Our Clients Say</h2>
@@ -330,8 +412,8 @@ export default function AboutPage() {
           <div className="container mx-auto max-w-4xl text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Start Your Adventure?</h2>
             <p className="mb-8 text-lg">
-              Contact us today to plan your dream safari in East Africa. Our team is ready to create an unforgettable
-              experience for you.
+              As our founders Edris and Ismael often say, &quot;Every journey with Edka is a story waiting to be told.&quot;
+              Contact us today to plan your dream safari in East Africa.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" variant="secondary">
@@ -354,4 +436,3 @@ export default function AboutPage() {
     </div>
   )
 }
-

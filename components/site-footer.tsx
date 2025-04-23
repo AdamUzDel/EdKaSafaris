@@ -9,8 +9,9 @@ export default function SiteFooter() {
           <div>
             <h3 className="text-white text-lg font-bold mb-4">About Us</h3>
             <p className="text-sm">
-              Edka Safaris & Adventures is a premier tour operator specializing in East African safaris. With years of
-              experience, we provide unforgettable wildlife and cultural experiences.
+              Edka Safaris & Adventures is a premier tour operator founded by brothers Edris and Ismael, specializing in
+              East African safaris. With a passion for adventure and deep love for Uganda&apos;s natural heritage, we provide
+              unforgettable wildlife and cultural experiences.
             </p>
           </div>
 
@@ -143,4 +144,3 @@ export default function SiteFooter() {
     </footer>
   )
 }
-

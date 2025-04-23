@@ -32,8 +32,8 @@ import {
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Separator } from "@/components/ui/separator"
+//import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+//import { Separator } from "@/components/ui/separator"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
@@ -90,7 +90,8 @@ export default function TourDetailsPage() {
               <Image
                 src={images[currentImageIndex] || "/placeholder.svg"}
                 alt={tour.title}
-                fill
+                width={800}
+                height={600}
                 className="object-cover"
               />
 
@@ -170,7 +171,13 @@ export default function TourDetailsPage() {
                 <p className="text-sm text-gray-800 mb-6">{tour.depositRequired}</p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  <Dialog>
+                    <Link href="https://store.pesapal.com/edkasafarisandadventures">
+                      <Button className="w-full">
+                        <CreditCard className="mr-2 h-4 w-4" />
+                        Book Now
+                      </Button>
+                    </Link>
+                  {/* <Dialog>
                     <DialogTrigger asChild>
                       <Button className="w-full">
                         <CreditCard className="mr-2 h-4 w-4" />
@@ -235,7 +242,7 @@ export default function TourDetailsPage() {
                         </Link>
                       </DialogFooter>
                     </DialogContent>
-                  </Dialog>
+                  </Dialog> */}
 
                   <Dialog>
                     <DialogTrigger asChild>
@@ -430,6 +437,7 @@ export default function TourDetailsPage() {
                       <Image
                         src={relatedTour.image || "/placeholder.svg"}
                         alt={relatedTour.title}
+                        fill
                         className="h-full w-full object-cover"
                       />
                     </div>
