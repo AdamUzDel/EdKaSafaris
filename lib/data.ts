@@ -493,13 +493,154 @@ export const tours = [
       "Health insurance is not included"
     ],
   },
+  
+  // New tours to add
+  {
+    id: "gorilla-queen-elizabeth-4-days",
+    title: "4-Day Gorilla Tracking & Queen Elizabeth National Park",
+    slug: "gorilla-queen-elizabeth-4-days",
+    description:
+      "Experience the best of Uganda's wildlife with this 4-day safari combining gorilla tracking in Bwindi Impenetrable Forest and game viewing in Queen Elizabeth National Park. Observe mountain gorillas in their natural habitat and enjoy a boat safari on the Kazinga Channel.",
+    location: "Bwindi Impenetrable Forest & Queen Elizabeth National Park",
+    category: "Gorilla Tours",
+    duration: "4 Days / 3 Nights",
+    image: "/Uganda-Gorilla-Trekking-in-December-1.jpg?height=600&width=800",
+    gallery: [
+      "/Gorilla-Trekking2.webp?height=400&width=600",
+      "/Gorilla-Trekking3.webp?height=400&width=600",
+      "/Gorilla-Trekking4.webp?height=400&width=600",
+    ],
+    price: 1565,
+    currency: "USD",
+    priceInfo: "Per person. Excludes international flights.",
+    depositRequired: "30% deposit required for confirmation",
+    rating: 4.9,
+    reviews: 36,
+    highlights: [
+      "Day 1: Arrival in Entebbe and Transfer to Bwindi Impenetrable National Park",
+      "Day 2: Gorilla Tracking in Bwindi Impenetrable National Park",
+      "Day 3: Transfer to Queen Elizabeth National Park and Afternoon Game Drive",
+      "Day 4: Morning Boat Safari on Kazinga Channel and Return to Entebbe",
+    ],
+    itinerary: [
+      {
+        day: "Day 1",
+        title: "Arrival in Entebbe and Transfer to Bwindi Impenetrable National Park",
+        description:
+          "Arrive at Entebbe International Airport (EBB) where you'll meet your driver/guide and begin the road transfer to Bwindi Impenetrable National Park (Buhoma Sector). The journey takes approximately 9-10 hours by road, including stops. Alternatively, you can take a domestic flight from Entebbe to Kihihi Airstrip (about 1.5 hours), followed by a 1-hour drive to Buhoma. Enjoy a scenic drive through Uganda's countryside, with stops for photos and lunch in Mbarara. Arrive at your lodge in Buhoma in the evening for dinner and a briefing about the next day's gorilla tracking adventure.",
+      },
+      {
+        day: "Day 2",
+        title: "Gorilla Tracking in Bwindi Impenetrable National Park",
+        description:
+          "After an early breakfast at 6:00 AM, transfer to Bwindi Park Headquarters for a briefing by Uganda Wildlife Authority (UWA) rangers at 7:30 AM. Begin your gorilla tracking adventure in the Buhoma Sector around 8:00 AM. The trek duration varies from 2-7 hours, depending on the gorillas' location, and includes 1 hour with the gorillas once found. Track a habituated gorilla family through the dense forest, guided by rangers and porters (optional porter hire available). Observe the gorillas' behavior, take photos, and enjoy this bucket-list experience. Return to the lodge for a late lunch and relaxation. In the evening, you have the option to take a village walk to meet the local Batwa community (additional cost, approximately $15-20 per person). Dinner and overnight at your lodge.",
+      },
+      {
+        day: "Day 3",
+        title: "Transfer to Queen Elizabeth National Park and Afternoon Game Drive",
+        description:
+          "After breakfast at 7:00 AM, depart Bwindi for Queen Elizabeth National Park via the Ishasha Sector (approximately 3-4 hours, 160 km). You may make an optional stop in Ishasha to spot tree-climbing lions, depending on time and road conditions. Arrive at your lodge near Queen Elizabeth National Park for lunch. In the afternoon (3:00 PM - 6:00 PM), enjoy a game drive in the Kasenyi Plains where you can spot wildlife such as elephants, buffaloes, lions, leopards (if lucky), and various antelope species. Return to the lodge for dinner and relaxation.",
+      },
+      {
+        day: "Day 4",
+        title: "Morning Boat Safari on Kazinga Channel and Return to Entebbe",
+        description:
+          "After an early breakfast at 6:30 AM, depart for a boat safari on the Kazinga Channel (8:00 AM - 10:00 AM). Cruise along the channel, observing hippos, crocodiles, elephants, and abundant birdlife including African fish eagles and kingfishers. After lunch at the lodge or en route, begin the return journey to Entebbe (approximately 6-7 hours, 410 km). Arrive in Entebbe by late evening (around 6:00-7:00 PM) for drop-off at Entebbe International Airport or a hotel for departure/overnight (not included in cost).",
+      },
+    ],
+    inclusions: [
+      "All transportation in a comfortable safari vehicle",
+      "English-speaking driver/guide throughout the tour",
+      "Accommodation as specified (mid-range options)",
+      "Meals as per the itinerary (full board)",
+      "Bottled water during the safari",
+      "Park entrance fees for Bwindi and Queen Elizabeth",
+      "Gorilla tracking permit ($700 value)",
+      "Boat cruise on Kazinga Channel",
+      "Game drives as mentioned in the itinerary",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees ($50 for single-entry Uganda visa)",
+      "Travel insurance",
+      "Personal expenses (souvenirs, phone calls, etc.)",
+      "Alcoholic and soft drinks",
+      "Tips and gratuities for guides and staff",
+      "Optional activities not mentioned in the itinerary",
+    ],
+  },
+  {
+    id: "honeymoon-ngamba-island-3-days",
+    title: "3 Days Honeymoon on Ngamba Island",
+    slug: "honeymoon-ngamba-island-3-days",
+    description:
+      "Enjoy a romantic 3-day honeymoon safari at Ngamba Island Chimpanzee Sanctuary on Lake Victoria. This short but memorable experience allows wildlife enthusiasts to relax and create unforgettable memories within the habitat of rescued chimpanzees from around Uganda.",
+    location: "Ngamba Island, Lake Victoria",
+    category: "Romantic Getaways",
+    duration: "3 Days / 2 Nights",
+    image: "/ngamba_island1.webp?height=600&width=800",
+    gallery: [
+      "/ngamba_island2.webp?height=400&width=600",
+      "/ngamba_island3.webp?height=400&width=600",
+      "/ngamba_island4.webp?height=400&width=600",
+    ],
+    price: 600,
+    currency: "USD",
+    priceInfo: "Per person (based on couple sharing). Excludes international flights.",
+    depositRequired: "30% deposit required for confirmation",
+    rating: 4.8,
+    reviews: 22,
+    highlights: [
+      "Day 1: Pick up in Entebbe or Kampala and transfer to Ngamba Island",
+      "Day 2: Full day interactive activities at Ngamba Island Chimpanzee Sanctuary",
+      "Day 3: Return to Entebbe by boat and drop off",
+    ],
+    itinerary: [
+      {
+        day: "Day 1",
+        title: "Pick up in Entebbe or Kampala and transfer to Ngamba Island",
+        description:
+          "Your journey begins with a pickup from your location in Entebbe or Kampala. Your guide will drive you to the pier where you'll board a boat to Ngamba Island. The boat ride takes approximately 45 minutes across Lake Victoria, during which you'll cross the equator line. Upon arrival at Ngamba Island Sanctuary, you'll visit the visitor's center for an introduction to the island and an educational orientation. Later, enjoy an evening feeding experience with the chimpanzees. Dinner and overnight at Ngamba Island Tented Camp.",
+      },
+      {
+        day: "Day 2",
+        title: "Full day interactive activities at Ngamba Island Chimpanzee Sanctuary",
+        description:
+          "After breakfast at your tent, spend the day exploring the island and participating in various activities. Choose from options such as a caregiver experience, morning or evening feeding sessions, Ngamba trail walk, or visiting the nearby fishing villages. Lunch will be served at the island, and you'll have time to relax before taking an evening sunset boat cruise. Enjoy the beautiful sunset as you sip your favorite drinks and cross from the northern to the southern hemisphere. Return for dinner and overnight at Ngamba Island Tented Camp.",
+      },
+      {
+        day: "Day 3",
+        title: "Return to Entebbe by boat and drop off",
+        description:
+          "Enjoy a final breakfast at your camp before departing from the island for the return boat ride to the pier in Entebbe. Upon arrival at the pier, your driver-guide will transfer you back to your destination in Entebbe, Kampala, or Entebbe International Airport for your departure flight.",
+      },
+    ],
+    inclusions: [
+      "Round-trip transfers from Entebbe/Kampala",
+      "Boat transfers to and from Ngamba Island",
+      "2 nights accommodation at Ngamba Island Tented Camp",
+      "All meals as specified in the itinerary",
+      "Chimpanzee viewing and feeding experiences",
+      "Sunset boat cruise",
+      "English-speaking guide",
+    ],
+    exclusions: [
+      "International flights",
+      "Visa fees",
+      "Travel insurance",
+      "Personal expenses",
+      "Alcoholic beverages",
+      "Tips and gratuities",
+      "Optional activities not mentioned in the itinerary",
+    ],
+  },
   {
     id: "kenya-study-tour-10-days",
-    title: "10 Day Kenya Study Tour",
+    title: "10-Day Kenya Study Tour for Learners",
     slug: "kenya-study-tour-10-days",
     description:
-      "This 10 days Kenya study tour is a regional tour that takes you for an Educational tour to Kenya – one of the east African countries using either Malaba or Busia border. Students spend tour Nairobi and Mombasa, Kenya two biggest cities",
-    location: "Kenya",
+      "This 10-day educational tour takes students to Kenya's two biggest cities: Nairobi and Mombasa. The journey begins in Nairobi, known as 'The Green City in the Sun,' and continues to the coastal city of Mombasa along the Indian Ocean, offering a comprehensive learning experience about Kenya's history, culture, and natural attractions.",
+    location: "Kenya (Nairobi & Mombasa)",
     category: "Educational Tours",
     duration: "10 Days / 9 Nights",
     image: "/dh38zklg9pf1sg4exstl.webp?height=600&width=800",
@@ -507,108 +648,195 @@ export const tours = [
       "/dh38zklg9pf1sg4exstl.webp?height=400&width=600",
       "/Wilson_Airport.jpg?height=400&width=600",
       "/187600885_1906235779557630_8512490382348779404_n.jpg?height=400&width=600",
-      "/80.jpg?height=400&width=600"
+      "/80.jpg?height=400&width=600",
     ],
-    price: 2800,
+    price: 550,
     currency: "USD",
-    priceInfo: "Per person. Includes accommodation, meals, park entry, and activities.",
+    priceInfo: "Per student. Group rates available.",
     depositRequired: "30% deposit required for confirmation",
     rating: 4.7,
-    reviews: 31,
+    reviews: 45,
     highlights: [
-      "Kenya, Nairobi – Mombasa study tour for group of pupils /students",
-      "Your study tour will begin and end at a designated point in Kampala.",
-      "Study tour to cover 10 days and 9 nights",
-      "Accommodation is hotel and hostel category based on room sharing. However there are separate facilities for girls/boys.",
-      "This study tour is suitable for pupils from P5 to P7 classes",
-      "This study tour is suitable for all students both secondary and post-secondary",
-      "This study tour can be customized to suit your needs",
-      "This study tour is available all year round but most preferably in December/Early January",
-      "Use of the Madaraka Express passenger train from Nairobi to Mombasa and return by road",
-      "Ground transportation is by Buses and Coasters",
+      "Day 1: Transfer from School to Nairobi",
+      "Day 2: Visit Kenyatta International Convention Centre, Kenyan Parliament, Nairobi National Museum and Snake Park",
+      "Day 3: Visit Wilson Airport, Nairobi Giraffe Centre and Bomas of Kenya",
+      "Day 4: Game Drive in Nairobi National Park and visit to Resurrection Gardens",
+      "Day 5: Train journey to Mombasa on the Madaraka Express and visit Pirates Beach",
+      "Day 6: Visit Rabai Mpya and Haller Park",
+      "Day 7: Visit Fort Jesus, Likoni Ferry Experience and Mamba Village",
+      "Day 8: Wild Waters activities and shopping",
+      "Day 9: Transfer from Mombasa to Nairobi",
+      "Day 10: Return journey to school",
     ],
     itinerary: [
       {
         day: "Day 1",
         title: "Travel from Kampala to Nairobi",
         description:
-          "The learners will be picked by a team of our professional tour guides at a designated point in Kampala, preferably at the former Shoprite at Lugogo.After a meet and greet session, the journey to Nairobi through Busia border will start. We hope to set off by 5.00 am to avoid traffic jam and to ensure that we are the Busia border by 8.00 am. They will go through the immigration process where learners and accompanying staff will be expected to present their passports and yellow fever vaccination certificates. Those without passports will apply for temporary travel document at a fee. Depending on the time taken on immigration clearances, they will continue their  journey to Nairobi with a stopover for lunch either in Kisumu or Kericho. They will drive through Kericho tea estate as learners are given key educative lectures about this mighty tea estate by our onboard guides. They will arrive in Nairobi by 7PM and will be checked into their accommodation facility for supper and overnight. There will be a strict demarcation for boys and girls when it comes to accommodation facilities. Meal Plan: Breakfast, Lunch and Dinner."
+          "The journey begins with pickup from a designated point in Kampala, preferably at the former Shoprite at Lugogo, at 5:00 AM to avoid traffic. Travel to Nairobi through the Busia border, arriving at the border by 8:00 AM for immigration processing. Students and staff will present their passports and yellow fever vaccination certificates. Those without passports can apply for temporary travel documents for a fee. Continue the journey to Nairobi with a stopover for lunch in either Kisumu or Kericho. Drive through the Kericho tea estates while guides provide educational information about this important agricultural area. Arrive in Nairobi by 7:00 PM and check into accommodation with separate facilities for boys and girls. Dinner and overnight stay.",
       },
       {
         day: "Day 2",
-        title: "Visit Kenyatta International Convention Centre, Parliament and Nairobi National Museum.",
+        title: "Visit Kenyatta International Convention Centre, Parliament and Nairobi National Museum",
         description:
-          "Kenyatta International Convention Centre: \n After breakfast, the Nairobi tour will start in high gear with a visit to Kenyatta International Convention Centre (KICC). KICC is a tall beautiful building of 28-storeys, built in 1974 and is considered a symbol of Nairobi serving as an international venue for major conferences, seminars, exhibitions, meetings as well as special events including international summits.Kenyan Parliament: From KICC, they will walk across the road to the Kenyan Parliament which is just a stone throw away. The Kenyan parliament is divided into 2 houses namely – National Assembly and Senate. The learners will take a tour of the building that houses the Parliament and learn about its history. Nairobi National Museum. After lunch, they will head to Nairobi National Museum which is the flagship brand of the National Museums of Kenya located on Museum Hill. It is a 10 minute drive from Nairobi city central business district. The museum tells the story of Kenya’s rich Heritage with four distinctive themes representing Kenya’s Culture, Nature, History and Contemporary Art hence it offers a one stop Center for visitors to sample the country’s rich heritage both for education and leisure. In addition to the museum, visitors are treated to a variety of shopping and eating facilities, as well as botanical gardens that offer a serene environment. After, they will be taken to Uhuru Park in the middle of the city to relax and have lunch. Later in the day, the learners will retire back to ther accommodation facility for supper and overnight. Meal Plan: Breakfast, lunch and Dinner"
+          "After breakfast, visit the Kenyatta International Convention Centre (KICC), a 28-story building built in 1974 that serves as a symbol of Nairobi and hosts major international conferences and events. Next, walk to the nearby Kenyan Parliament to learn about its two houses (National Assembly and Senate) and the building's history. After lunch at Uhuru Park in the city center, visit the Nairobi National Museum on Museum Hill, which showcases Kenya's rich heritage through exhibits on culture, nature, history, and contemporary art. The museum offers educational displays and botanical gardens. Return to accommodation for dinner and overnight stay.",
       },
       {
         day: "Day 3",
         title: "Visit Wilson Airport, Nairobi Giraffe Centre and Bomas of Kenya",
         description:
-          "Wilson Airport: On day three after breakfast, the learners will visit Wilson airport which lies about 4km by road south of Nairobi central business district. The airport was established as Nairobi West Aerodrome in 1927 by a wealthy widow called Florence Kerr Wilson. The airport’s average traffic is around 120,000 landings and take-offs annually. Air Kenya and other small airlines use Wilson Airport for scheduled domestic passenger services instead of JKIA. Nairobi Giraffe Centre: After visit Wilson Airport, the leaners will tour Nairobi Giraffe Centre located about 20km from Nairobi city center. It was established in 1979 under the African Fund for Endangered Wildlife (AFEW) which plays a pivotal role in conserving the critically endangered Rothschild giraffe. The main attraction for both school children and visitors is the hand feeding of giraffes from a raised wooden structure (giraffe height). They can also watch Warthogs snuffling at their hooves, scavenging on the fallen pellets. Bomas of Kenya. After lunch they will visit Bomas of Kenya which is a tourist village in Langata – Nairobi on Forest edge road about 10km from Nairobi City Centre. It was established by the Government of Kenya in 1971 with the overall mandate to preserve, maintain and promote the rich and diverse cultural values of various ethnic groups of Kenya and to act as a tourist attraction. There are currently different “Bomas” representing each of Kenya’s major ethnic communities with numerous huts displaying traditional villages belonging to the several Kenyan tribes. They will watch the traditional dances representing the various ethnic communities of Kenya before having a tour of the different “Bomas”. Later in the evening the learners will retreat back to their accommodation facility for supper and overnight. Meal plan: Breakfast, Lunch and Dinner"
+          "Begin the day with a visit to Wilson Airport, established in 1927 by Florence Kerr Wilson. The airport handles around 120,000 landings and takeoffs annually and is used by small airlines for domestic passenger services. Next, visit the Nairobi Giraffe Centre, established in 1979 to conserve the endangered Rothschild giraffe. Students can hand-feed giraffes from a raised platform and observe warthogs in their natural habitat. After lunch, visit Bomas of Kenya, a tourist village established in 1971 to preserve Kenya's diverse cultural heritage. Explore different 'Bomas' representing Kenya's major ethnic communities and watch traditional dance performances. Return to accommodation for dinner and overnight stay.",
       },
       {
         day: "Day 4",
-        title: "Game Drive in Nairobi National park and visit to the Resurrection Gardens",
+        title: "Game Drive in Nairobi National Park and visit to the Resurrection Gardens",
         description:
-          "Nairobi National park: Day four starts with a visit to Nairobi National Park. After breakfast,the learners will head to the park for an early morning game drive believed to be more rewarding than any other time of the day. Known as “The world’s only Wildlife Capital”, Nairobi National park is Kenya’s first game reserve, established in 1946. It is a short drive out of Nairobi central business district located about 8km south of Nairobi on Lang’ata edge road. It is home to over 100 mammals with four of the big five present. Resurrection Garden: After lunch, they  will visit the Resurrection Garden which is a place of prayer located south west of Nairobi about 1km off Dagoretti road. The resurrection garden was established purposely to help Christians rediscover the roots of their faith in order to draw new inspiration and courage in serving God. The garden is painted with beautiful pictures in different stations showing the history of salvation – the birth of Jesus, his ministry and one that ends up with the way of the cross. Meal plan: Breakfast, Lunch and Dinner"
+          "After an early breakfast, head to Nairobi National Park, Kenya's first game reserve established in 1946, for a morning game drive. Located just 8km from the city center, the park is home to over 100 mammal species, including four of the 'Big Five'. After lunch, visit the Resurrection Garden, a place of prayer located southwest of Nairobi. The garden features beautiful paintings depicting the history of salvation, from the birth of Jesus to the Way of the Cross, helping Christians rediscover their faith. Return to accommodation for dinner and overnight stay.",
       },
       {
         day: "Day 5",
-        title: "Travel to Mombasa by Standard Gauge Railway (SGR).",
+        title: "Travel to Mombasa by Standard Gauge Railway (SGR)",
         description:
-          "After an early morning breakfast, the learners will be dropped off at Syokimau Nairobi terminus on time for the 8:00 am train schedule and have a transfer to Mombasa by the Madaraka Express passenger train arriving the Mombasa terminus at 2:00 pm. They will have lunch before being transferred to Pirates Beach for their first introduction to coastal life. Pirates beach also known as Kenyatta public beach is found in Bamburi along Mombasa – Malindi highway about 8 kilometers from Mombasa central business district. Over looked by several beautiful beach resorts, lots of activities await you at pirates beach including sun bathing, boat rides, photography, Camel rides and swimming among others. Later they will retire to their booked accommodation facility for supper and overnight. Meal plan: Breakfast, Lunch and Dinner"
+          "After an early breakfast, transfer to Syokimau Nairobi terminus to catch the 8:00 AM Madaraka Express passenger train to Mombasa. Arrive at Mombasa terminus at 2:00 PM and have lunch before visiting Pirates Beach (also known as Kenyatta public beach) in Bamburi. Located about 8km from Mombasa's city center, the beach offers activities such as sunbathing, boat rides, photography, camel rides, and swimming. Later, check into accommodation for dinner and overnight stay.",
       },
       {
         day: "Day 6",
-        title: "Visit Rabai Mpya in the morning and Haller Park in the afternoon.",
+        title: "Visit Rabai Mpya in the morning and Haller Park in the afternoon",
         description:
-          "Rabai: After breakfast your first experience of coast life begins with a visit to Rabai also called Rabai Mpya. It is a historic location situated about 25km north-west of Mombasa, off the Mombasa – Nairobi highway along the Mazeras – Kaloleni road in Kilifi County. The Rabia museum also referred to as Krapf memorial museum was officially opened on June 1998 in memory of Krapt and to honor his work in the area. It was also founded so as to give formal and a perpetual reminder to monumental events during the advent of early missionaries. Today this place represents the mixture of the history of Christianity, Slavery and the Mijikenda culture whose evidence is still in the place. The Rabai festival is an annual event held in November to celebrate the history, life and culture of the Rabai and their small town. Haller Park: After lunch you will head to Haller Park situated in the North Coast of Mombasa south of the Bamburi Cement factory along Mombasa – Malindi highway. This is an ecological park that is as a result of transformation of a quarry wasteland into a park full of diverse varieties of plants and animals. What was once a limestone quarry is now a thriving ecosystem of forest, grassland and ponds with walking trails for you to view the fenced wildlife such as hippo, giraffe, antelope, buffalo, humongous tortoises and smaller mammals. The park also has a number of bird species like the eagle, sandpiper, weaver, kingfisher, ibis, owl, heron, egret and much more. The sections of the park include the game sanctuary, reptile park, fish farm, crocodile pens, giraffe viewing point and palm gardens. Enjoy the twisting and winding nature trails and have the opportunity to feed the hippos and giraffes. Later retire to your booked accommodation facility for supper and overnight"
+          "After breakfast, visit Rabai (also called Rabai Mpya), a historic location about 25km northwest of Mombasa. Explore the Rabai museum (Krapf memorial museum), which opened in June 1998 to honor the work of early missionaries and preserve the history of Christianity, slavery, and Mijikenda culture in the area. After lunch, visit Haller Park, an ecological park transformed from a limestone quarry into a thriving ecosystem of forest, grassland, and ponds. Walk the nature trails to view fenced wildlife such as hippos, giraffes, antelopes, buffaloes, tortoises, and various bird species. The park includes a game sanctuary, reptile park, fish farm, crocodile pens, giraffe viewing point, and palm gardens. Feed the hippos and giraffes before returning to accommodation for dinner and overnight stay.",
       },
       {
         day: "Day 7",
-        title: "Visit to Fort Jesus, Likoni Ferry and  Mamba Village",
+        title: "Visit to Fort Jesus, Likoni Ferry and Mamba Village",
         description:
-          "Fort Jesus: After breakfast students will start the day with a morning visit to Fort Jesus. Fort Jesus was built by Portuguese towards the end of the 16th century between 1593 to 1596 on the coastline near Old Mombasa town. After the Portuguese inhabited it, the fort became the subject of battle between 1631 and 1895, it was captured and recaptured, changing hands nine times with the Oman Arabs winning control over it in 1698. In 1895 the British transformed it into a prison in which they held slaves in the torture rooms and cells in the inner part of the fort. In 2011 it was declared a World Heritage Site by UNESCO and highlighted as one of the most outstanding and well-preserved examples of 16th century Portuguese military fortifications. Likoni Ferry: After about an hour, the learners will depart Fort Jesus and connect to have an experience of the Likoni Ferry which serves the Mombasa island side and the mainland suburb of Likoni. Two-Four double-ended ferries alternate across the harbor, carrying both road and foot traffic. They will have the experience of being on the ferry with breathtaking views of Mombasa Port seen from a close range. Mamba village: After lunch, they will head to Mamba Village located about 12 kilometers north of Kenyan coastal town of Mombasa, in the Nyali area. Mamba village is the largest crocodile farm in Africa and is home to over 10,000 crocodiles. It is also home to BIG DADDY which is known as the oldest crocodile. The tour of the farm will begin with a video presentation as an introduction to many reptile species, life cycle and behavior of crocodiles. This will be followed by a comprehensive tour of the rest of the farm as they learn more about the crocodile life cycle and behavior while viewing lives of crocodile of every size, starting from hatchlings to fully grown adults."
+          "Begin the day with a visit to Fort Jesus, built by the Portuguese between 1593 and 1596 on the coastline near Old Mombasa town. Learn about its history as a battleground between 1631 and 1895, changing hands nine times before becoming a British prison. In 2011, it was declared a UNESCO World Heritage Site. Next, experience the Likoni Ferry, which connects Mombasa island to the mainland suburb of Likoni, offering breathtaking views of Mombasa Port. After lunch, visit Mamba Village, Africa's largest crocodile farm with over 10,000 crocodiles, including 'Big Daddy,' the oldest crocodile. The tour begins with a video presentation about reptile species and crocodile behavior, followed by a comprehensive tour of the farm to observe crocodiles of all sizes, from hatchlings to adults.",
       },
       {
         day: "Day 8",
         title: "Visit Wild Waters for a half day full-packed activities",
         description:
-          "Wild Waters: After breakfast, the learners will head to wild waters situated in Nyali, Mombasa on links road for half day fun full packed activities and experience the beautiful coastal sunshine at wild waters. Wild waters is a family entertainment park that boasts a range of fun with its exhilarating slides, games, rides and pool for all ages. Wild Waters blends the thrill of an amusement park with the refreshing cool of a water park. In this place, there is something for everyone. Shopping: After lunch, they will spend the rest of the afternoon at leisure with shopping options in one of the supermarkets as well as at Marikiti market for those with interested in purchasing some souvenirs like crafts, shirts, bangles etc. Later they will retire back to their accommodation for supper and to sleep as they prepare for the journey back to Nairobi."
+          "After breakfast, spend half a day at Wild Waters in Nyali, Mombasa, a family entertainment park featuring exhilarating slides, games, rides, and pools for all ages. The park blends the thrill of an amusement park with the refreshing experience of a water park. After lunch, enjoy free time for shopping at supermarkets and Marikiti market, where students can purchase souvenirs like crafts, shirts, and bangles. Return to accommodation for dinner and overnight stay, preparing for the journey back to Nairobi.",
       },
       {
         day: "Day 9",
         title: "Drive from Mombasa to Nairobi",
         description:
-          "On the ninth day the learners will have a relaxed breakfast before being transferred to Nairobi by road. They will go through Tsavo east and Tsavo west national parks as they catch a glimpse of Zebras that commonly graze by the road side enroute to Nairobi. Lunch break will be at Tsavo before continuing the journey and arriving Nairobi in the evening.  Supper and overnight at the respective booked accommodation facility. "
+          "After a relaxed breakfast, begin the road journey back to Nairobi. Travel through Tsavo East and Tsavo West national parks, with opportunities to spot zebras grazing by the roadside. Stop for lunch at Tsavo before continuing to Nairobi, arriving in the evening. Dinner and overnight stay at accommodation in Nairobi.",
       },
       {
         day: "Day 10",
         title: "Back to Uganda",
         description:
-          "The learners will wake up at sunrise and set off for Kampala. Breakfast will be served enroute in Nakuru. Arrive at Busia border by 1:30pm, clear with immigration to confirm exit from Kenya. Have lunch at Busia border before continuing your journey to Kampala. Arrive in Kampala at the designated pick up point (Shoprite Lugogo) at 6.00 PM. Meal Plan: Breakfast and Lunch. This marks the end of 10 Days and 9 nights of the Kenyan Study Tour"
-      }
+          "Wake up at sunrise and begin the journey back to Kampala. Stop for breakfast in Nakuru. Arrive at the Busia border by 1:30 PM to clear immigration and exit Kenya. Have lunch at the Busia border before continuing to Kampala. Arrive at the designated drop-off point (Shoprite Lugogo) by 6:00 PM, marking the end of the 10-day Kenya Study Tour.",
+      },
     ],
     inclusions: [
-      "Airport transfers",
-      "Accommodation (twin sharing basis)",
-      "All meals as per itinerary",
-      "Entrance fees to parks and reserves",
-      "Professional English-speaking guide",
-      "Cultural engagement activities",
-      "Ground transportation in a safari vehicle",
-      "Bottled water during travel"
+      "Transportation in comfortable buses",
+      "9 nights accommodation in hostels (separate facilities for boys and girls)",
+      "All meals as specified in the itinerary",
+      "Madaraka Express train ticket from Nairobi to Mombasa",
+      "All entrance fees to attractions mentioned in the itinerary",
+      "English-speaking guides throughout the tour",
+      "Border crossing assistance",
+      "Bottled water during the journey",
     ],
     exclusions: [
-      "International airfare",
-      "Personal expenses",
-      "Visa fees",
+      "International travel insurance",
+      "Personal expenses and souvenirs",
+      "Visa fees and temporary travel documents (if required)",
+      "Activities not mentioned in the itinerary",
       "Tips and gratuities",
-      "Travel and medical insurance",
-      "Activities not mentioned in itinerary",
-      "Vaccinations and COVID-19 testing (if required)",
-      "Health insurance is not included"
-    ]
+    ],
+  },
+  {
+    id: "uganda-cultural-tour-7-days",
+    title: "7 Days Uganda Cultural Tour",
+    slug: "uganda-cultural-tour-7-days",
+    description:
+      "Embark on a journey that transcends time, immersing yourself in the rich traditions and unique customs of Uganda's diverse tribes. This 7-day cultural safari introduces you to the heart of Uganda, where you'll engage with communities that have preserved their ancestral ways of life across three remarkable tribes.",
+    location: "Uganda (Multiple Locations)",
+    category: "Cultural Tours",
+    duration: "7 Days / 6 Nights",
+    image: "/cultural_tour4.jpg?height=600&width=800",
+    gallery: [
+      "/cultural_tour2.jpg?height=400&width=600",
+      "/cultural_tour3.jpg?height=400&width=600",
+      "/cultural_tour1.jpg?height=400&width=600",
+    ],
+    price: 2330,
+    currency: "USD",
+    priceInfo: "Per person. Excludes international flights.",
+    depositRequired: "30% deposit required for confirmation",
+    rating: 4.9,
+    reviews: 28,
+    highlights: [
+      "Day 1: Kampala City Tour - Cultural and Traditional Sites",
+      "Day 2: Entanda Cultural Community",
+      "Day 3: Transfer to Mgahinga National Park",
+      "Days 4 & 5: Time with the Batwa People",
+      "Day 6: Isunga Cultural Community",
+      "Day 7: Departure",
+    ],
+    itinerary: [
+      {
+        day: "Day 1",
+        title: "Kampala City Tour - Cultural and Traditional Sites",
+        description:
+          "Welcome to Uganda! Our representative will greet you and brief you on the exciting journey ahead. After some refreshment at your lodge, we'll explore the vibrant city of Kampala. Highlights include a visit to the Gadhafi Mosque, where you can view Kampala's foundational 7 hills, and Kabaka's Palace, home to Amin's former torture chambers. The day concludes with a visit to Owino Market and the Uganda Museum. Overnight at your selected accommodation in Kampala.",
+      },
+      {
+        day: "Day 2",
+        title: "Entanda Cultural Community",
+        description:
+          "After breakfast, enjoy a scenic 1-2 hour drive to Entanda Cultural Community. The route offers stunning views of African homesteads, bustling towns, and lush landscapes. Upon arrival, receive a warm welcome from the locals and embark on a forest walk to learn about traditional Buganda survival techniques. Return to the village center for lunch and a cultural lesson on marriage preparation. Overnight at your selected accommodation in Kampala.",
+      },
+      {
+        day: "Day 3",
+        title: "Transfer to Mgahinga National Park",
+        description:
+          "Start your day with a hearty breakfast before embarking on a 9-10 hour journey to Mgahinga Gorilla National Park in southwestern Uganda. Along the way, enjoy the sight of lush plantations, Ankole long-horned cattle, and diverse landscapes. Arrive in the evening to the serene surroundings of your lodge near Mgahinga National Park for dinner and overnight stay.",
+      },
+      {
+        day: "Day 4",
+        title: "Time with the Batwa People - Day 1",
+        description:
+          "After breakfast at your lodge, spend the day with the Batwa people, learning traditional skills such as fire-making, hunting, and using medicinal plants. The Batwa, former forest dwellers, will share their rich cultural heritage and demonstrate their deep connection to the forest. Enjoy lunch with the local community and return to your lodge for dinner and overnight stay.",
+      },
+      {
+        day: "Day 5",
+        title: "Time with the Batwa People - Day 2",
+        description:
+          "Continue your immersive experience with the Batwa people. Today's activities might include traditional crafts, music, dance, and storytelling sessions that reveal the spiritual beliefs and social structures of this unique community. This extended time allows for deeper cultural exchange and understanding. Return to your lodge for dinner and overnight stay.",
+      },
+      {
+        day: "Day 6",
+        title: "Isunga Cultural Community",
+        description:
+          "After breakfast, journey to the Isunga Cultural Community. Here, you'll participate in tea harvesting, visit the cold springs, and enjoy lively dances and stories shared by the locals. This community offers insights into agricultural practices and daily life in rural Uganda. Overnight at your selected accommodation near Isunga.",
+      },
+      {
+        day: "Day 7",
+        title: "Departure",
+        description:
+          "With your cultural safari adventure complete, enjoy breakfast before a 5-6 hour transfer to Entebbe International Airport. En route, stop at the equator for a photo opportunity and a demonstration of this unique geographical landmark, where you can observe the Coriolis effect. Arrive at the airport in time for your departure flight, marking the end of your cultural journey through Uganda.",
+      },
+    ],
+    inclusions: [
+      "All activities mentioned in the itinerary",
+      "Complimentary city tour (depending on arrival time)",
+      "6 nights of accommodation with Full Board",
+      "Transportation in a Safari Vehicle",
+      "Full-time English-speaking driver-guide",
+      "Scenic Viewing and Park Entry Fees",
+      "All government taxes and levies",
+    ],
+    exclusions: [
+      "Optional activities",
+      "Visas",
+      "Flight tickets",
+      "Personal/medical insurance",
+      "Personal expenses (e.g., alcohol, cigarettes, tips, laundry services, airfares, extra accommodation)",
+    ],
   },  
 ]
 
