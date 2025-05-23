@@ -40,7 +40,7 @@ export default function CompanyProfilePage() {
 
               <p className="text-gray-700 mb-6">
                 Our driving force is the passion to provide efficient and personalized customer care service to all
-                those who engage with us. We always strive to exceed our customers' expectations by keeping our promises
+                those who engage with us. We always strive to exceed our customers&apos; expectations by keeping our promises
                 and assuring them of our trust at all times.
               </p>
 
@@ -637,11 +637,11 @@ export default function CompanyProfilePage() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold text-green-700 mb-4">Flights & Getting Around</h3>
                 <p className="text-gray-700 mb-4">
-                  Entebbe International Airport, located 35km from Kampala, is Uganda's international gateway. Visitors
+                  Entebbe International Airport, located 35km from Kampala, is Uganda&apos;s international gateway. Visitors
                   usually arrive via Nairobi or other regional hubs.
                 </p>
                 <p className="text-gray-700">
-                  Despite Uganda's small size, expect long rides between destinations. Game drives in the national parks
+                  Despite Uganda&apos;s small size, expect long rides between destinations. Game drives in the national parks
                   are generally conducted in open-sided 4X4s.
                 </p>
               </div>
@@ -649,7 +649,7 @@ export default function CompanyProfilePage() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-bold text-green-700 mb-4">Visa & Passport Requirements</h3>
                 <p className="text-gray-700 mb-4">
-                  All visitors to Uganda require a visa, and every visitor's passport must be valid for at least six
+                  All visitors to Uganda require a visa, and every visitor&apos;s passport must be valid for at least six
                   months from their departure date.
                 </p>
                 <p className="text-gray-700">
